@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+header img {
+  cursor: pointer;
+}
+header .left img {
+  margin-top: 20px;
+}
+footer {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.home {
+  min-height: 100vh;
+  background-color: black;
+}
+.home .inner {
+  width: 90%;
+  margin: auto;
+}
+.home main {
+  text-align: center;
+}
+.home main .audio h2 {
+  color: white;
+  margin: 30px 0 20px;
+}
+.home main .audio .img {
+  margin-bottom: 20px;
+}
+.home main .audio .img img {
+  height: 160px;
+}
+.home main .audio .play audio {
+  width: 100%;
+}
+.home main .audio .play .handle {
+  background-color: #948d8d;
+  padding: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home main .audio .play .handle img {
+  cursor: pointer;
+}
+.home main .audio .play .handle .time {
+  margin-left: 30px;
+  color: #662E91;
+}
+.home main .audio .play .handle .range {
+  flex-grow: 1;
+}
+.home main .audio .play .handle .range input {
+  width: 96%;
+  height: 30px;
+}
+.home main .audio .play .handle .loud {
+  margin-left: 30px;
+}
+.home main .video h2 {
+  color: white;
+  margin: 30px 0 20px;
+}
+.home main .video .imgs {
+  margin-left: -30px;
+  margin-bottom: 20px;
+}
+.home main .video .imgs img {
+  height: 160px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.home main .video .imgs img.current {
+  box-shadow: 0 0 6px #ddd;
+}
+.home main .video .play {
+  position: relative;
+  font-size: 0;
+  color: #662E91;
+}
+.home main .video .play video {
+  width: 100%;
+}
+.home main .video .play .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home main .video .play .img img {
+  width: 80px;
+  height: 80px;
+}
+.home main .video .play:hover .handle {
+  display: flex;
+}
+.home main .video .play .handle {
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #948D8D;
+  padding: 10px 20px;
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.home main .video .play .handle img {
+  cursor: pointer;
+}
+.home main .video .play .handle .time {
+  margin-left: 30px;
+}
+.home main .video .play .handle .range {
+  flex-grow: 1;
+}
+.home main .video .play .handle .range input {
+  width: 96%;
+}
+.home main .video .play .handle .speaker {
+  margin-right: 30px;
+}
+.home main .video .play .handle .full {
+  margin-left: 30px;
+}
