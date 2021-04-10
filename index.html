@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roku Flashback</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="home">
+        <div class="inner">
+            <header>
+                <div class="left">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="right">
+                    <img src="./img/icon.png" alt="">
+                </div>
+            </header>
+    
+            <main>
+                <div class="audio">
+                    <h2>Welcome To Our Music World!</h2>
+                    <div class="img">
+                        <img src="./img/American pie4.png" alt="">
+                    </div>
+                    <div class="play">
+                        <audio src="./audio/American Pie.mp3"></audio>
+                        <div class="handle">
+                            <div class="play-icon"><img src="./img/play.png" alt=""></div>
+                            <div class="time"><span class="audio_current">00:00</span>/<span class="audio_total"></span></div>
+                            <div class="range"><input type="range" value="0" min="0" max="100" step="1"></div>
+                            <div class="speaker"><img src="./img/audio.png" alt=""></div>
+                            <div class="loud"><input type="range" min="0" max="1" step="0.1" /></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <h2>Welcome To Our Video Show!</h2>
+                    <div class="imgs">
+                        <img class="first_video current" src="./img/dastardly_muttley.png" alt=""  data-img="" data-video="./video/Ep 03 Part 2 Eng _ Dastardly & Muttley in their Flying Machines.mp4">
+                        <img class="second_video" src="./img/The_Sword.png" alt="" data-img="./img/20210410160512.png" data-video="./video/The Sword In The Stone(1963) - Wart Becomes King Arthur.mp4">
+                    </div>
+                    <div class="play">
+                        <video src="./video/Ep 03 Part 2 Eng _ Dastardly & Muttley in their Flying Machines.mp4"></video>
+                        <div class="img">
+                            <img src="./img/play.png" alt="">
+                        </div>
+                        <div class="handle">
+                            <div class="play-icon"><img src="./img/play.png" alt=""></div>
+                            <div class="time"><span class="video_current">00:00</span>/<span class="video_total"></span></div>
+                            <div class="range"><input type="range" value="0" min="0" max="100" step="1"></div>
+                            <div class="speaker"><img src="./img/audio.png" alt=""></div>
+                            <div class="loud"><input type="range" min="0" max="1" step="0.1" /></div>
+                            <div class="full"><img src="./img/Full screen.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+    
+            <footer>
+                <p>&copy; 2021 Roku Flashback</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
